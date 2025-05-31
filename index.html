@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pranjali Patel | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="site-title">Pranjali Patel</h1>
+        <p class="site-tagline">Frontend Developer | Learner | Enthusiast</p>
+        <img
+          src="profile.jpg"
+          alt="Pranjali Patel's Profile Picture"
+          class="profile-picture"
+        />
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container">
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="alertBanner" class="alert hidden"></div>
+
+    <main class="main-content">
+      <section id="about" class="section about-section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            Hello! I’m Pranjali Patel, a passionate computer science student at
+            Gyan Ganga Institute of Technology and Sciences, Jabalpur. I thrive
+            on solving real-world challenges through artificial intelligence,
+            machine learning, and cloud computing. With a strong technical
+            foundation and a drive to lead, I aim to build impactful,
+            future-ready solutions.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div>
+              <h3>Languages</h3>
+              <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Frameworks</h3>
+              <ul>
+                <li>Django</li>
+                <li>React</li>
+                <li>TensorFlow</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Specialties</h3>
+              <ul>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Frontend Developer</li>
+                <li>Chatbots</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="container">
+          <h2>Experience</h2>
+          <ul class="experience-list">
+            <li>
+              <h3>Internshala Student Partner</h3>
+              <p><strong>April 2023 – Jabalpur, MP</strong></p>
+              <p>
+                Organized 10+ workshops and webinars, engaging over 100
+                attendees. Planned and managed educational events to support
+                student learning and participation. Led marketing campaigns that
+                boosted course enrollments by 20%. Executed effective
+                promotional strategies across digital platforms. Collaborated
+                with university stakeholders to coordinate events, strengthening
+                leadership and communication skills.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form id="contactForm" class="contact-form">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+          <p id="formMessage" class="hidden"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/pranjali-patel-0b2a9a230"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/pranjalip16">GitHub</a>
+        </div>
+        <p>© 2023 Pranjali | All Rights Reserved</p>
+      </div>
+      
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
